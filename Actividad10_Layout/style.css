@@ -1,0 +1,182 @@
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 75px;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+}
+
+.buscar{
+    position: absolute;
+    right: 15px;
+    top: 10%;
+}
+
+nav{
+    display: flex;
+    background-color: firebrick;
+    color: white;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    width: 20%;
+    height: 650px;
+    position: relative;
+    float: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.news{
+    background-color:darkgrey;
+    width: 90%;
+    height: 200px;
+    margin: 3%;
+    padding: 2%;
+}
+
+a{
+    font-size: 14px;
+}
+.date{
+    font-size: 12px;
+}
+
+.adds{
+    background-color: lightgoldenrodyellow;
+    width: 90%;
+    height: 375px;
+    padding: 2%;
+    border-style: dashed;
+    border-color: orange;
+    color: orange;
+    font-size: 18px;
+}
+
+p{
+    color: black;
+    font-size: 18px;
+}
+
+.center{
+    display: flex;
+    width: 60%;
+    height: 650px;
+    position: relative;
+    flex-direction: column;
+    float: left;
+    align-items: center;
+
+}
+
+.lorem{
+    width: 95%;
+    height: 275px;
+    margin: 2%;
+    padding: 2%;
+    background-color: white;
+    color: gold;
+}
+
+.plorem{
+    width: 66%;
+    font-size: 14px;
+    float: right;
+    color: black;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.psl{
+    width: 66%;
+    color: goldenrod;
+    float: inline-start;
+    padding: 1%;
+}
+
+.finibus{
+    width: 95%;
+    height: 275px;
+    margin: 2%;
+    padding: 2%;
+    background-color: white;
+    color: gold;
+}
+
+.pfinibus{
+    width: 66%;
+    font-size: 14px;
+    float: right;
+    color: black;
+    padding: 2%;
+    font-weight: bold;
+}
+
+img{
+    float: left;
+    width: 30%;
+    height: 165px;
+}
+
+.right{
+    display: flex;
+    float: right;
+    width: 20%;
+    height: 650px;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.t1{
+    margin: 3%;
+    border-color: deepskyblue;
+}
+.cd{
+    background-color: deepskyblue;
+    color: white;
+    padding: 2%;
+}
+.li{
+    font-size: 20px;
+}
+.sl{
+    color: goldenrod;
+}
+
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: whitesmoke;
+    float: inline-end;
+    position: relative;
+}
+
+.t2{
+    margin-left: 2%;
+    background-color: gray;
+    padding: 1%;
+    position: absolute;
+}
+
+.by{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    font-weight: bold;
+}
