@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1500px;
+    height: 600px;
+    margin: 0 auto;
+    outline: 4px solid;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    ;
+}
+
+.purple{
+    background-color: darkmagenta;
+    grid-column: 1/16;
+    grid-row: 1/2;
+    margin: 1%;
+}
+
+.green{
+    background-color: limegreen;
+    grid-column: 4/16;
+    grid-row: 2/3;
+    margin: 1%;
+}
+
+.blue1{
+    background-color: deepskyblue;
+    grid-column: 4/10;
+    grid-row: 3/6;
+    margin: 1%;
+}
+
+.blue2{
+    background-color: deepskyblue;
+    grid-column: 10/16;
+    grid-row: 3/6;
+    margin: 1%;
+}
+
+.violet1{
+    background-color: violet;
+    grid-column: 4/6;
+    grid-row: 6/8;
+    margin: 1%;
+}
+
+.violet2{
+    background-color: violet;
+    grid-column: 4/6;
+    grid-row: 8/10;
+    margin: 1%;
+}
+
+.violet3{
+    background-color: violet;
+    grid-column: 6/8;
+    grid-row: 6/8;
+    margin: 1%;
+}
+
+.violet4{
+    background-color: violet;
+    grid-column: 6/8;
+    grid-row: 8/10;
+    margin: 1%;
+}
+
+.violet5{
+    background-color: violet;
+    grid-column: 12/14;
+    grid-row: 6/8;
+    margin: 1%;
+}
+
+.violet6{
+    background-color: violet;
+    grid-column: 14/16;
+    grid-row: 6/8;
+    margin: 1%;
+}
+
+.violet7{
+    background-color: violet;
+    grid-column: 12/14;
+    grid-row: 8/10;
+    margin: 1%;
+}
+
+.violet8{
+    background-color: violet;
+    grid-column: 14/16;
+    grid-row: 8/10;
+    margin: 1%;
+}
+
+.red1{
+    background-color: orangered;
+    grid-column: 8/12;
+    grid-row: 6/8;
+    margin: 1%;
+}
+.red2{
+    background-color: orangered;
+    grid-column: 8/12;
+    grid-row: 8/10;
+    margin: 1%;
+}
+
+.orange1{
+    background-color: orange;
+    grid-column: 1/4;
+    grid-row: 2/10;
+    margin: 1%;
+}
+
+.orange2{
+    background-color: orange;
+    grid-column: 16/17;
+    grid-row: 1/10;
+    margin: 1%;
+}

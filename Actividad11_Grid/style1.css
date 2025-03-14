@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    outline: 4px solid;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.box{
+    color: white;
+    text-align: center;
+}
+
+.purple{
+    background-color: darkmagenta;
+    grid-column: 1/9;
+    grid-row: 1/4;
+    margin: 1%;
+}
+
+.blue{
+    background-color: deepskyblue;
+    grid-column: 9/11;
+    grid-row: 1/9;
+    margin: 1%;
+}
+
+.red{
+    background-color: orangered;
+    grid-column: 1/3;
+    grid-row: 4/6;
+    margin: 1%;
+}
+
+.green{
+    background-color: limegreen;
+    grid-column: 3/9;
+    grid-row: 4/6;
+    margin: 1%;
+}
+
+.violet{
+    background-color: violet;
+    grid-column: 1/5;
+    grid-row: 6/9;
+    margin: 1%;
+}
+
+.orange{
+    background-color: orange;
+    grid-column: 5/9;
+    grid-row: 6/9;
+    margin: 1%;
+}
+

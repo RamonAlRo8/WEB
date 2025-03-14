@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    outline: 4px solid;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.red{
+    background-color: orangered;
+    grid-column: 1/4;
+    grid-row: 1/10;
+    margin: 1%;
+}
+
+.purple{
+    background-color: darkmagenta;
+    grid-column: 4/10;
+    grid-row: 1/4;
+    margin: 1%;
+}
+
+.green1{
+    background-color: limegreen;
+    grid-column: 10/11;
+    grid-row: 1/10;
+    margin: 1%;
+}
+
+.green2{
+    background-color: limegreen;
+    grid-column: 4/6;
+    grid-row: 4/8;
+    margin: 1%;
+}
+
+.blue{
+    background-color: deepskyblue;
+    grid-column: 6/10;
+    grid-row: 4/5;
+    margin: 1%;
+}
+
+.violet{
+    background-color: violet;
+    grid-column: 6/10;
+    grid-row: 5/8;
+    margin: 1%;
+}
+
+.orange{
+    background-color: orange;
+    grid-column: 4/10;
+    grid-row: 8/10;
+    margin: 1%;
+}
