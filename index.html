@@ -3,22 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Home</title>
+    <!-- Imporatmos los 'styles' de bootstrap desde 'node modules' y locales -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Programación WEB (2025A)</h1>
-        <h2>By: Ramón Alvarez Robles (yogo)</h2>
-        <hr>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Home</h1>
     </header>
-    <main>
-        <br><h1><p><b>Hyper Text Markup Language</b></p></h1>
-        <hr>
-        <nav>
-            <ol type="i">
-                <li><s><a href="https://github.com/RamonAlRo8/WEB/edit/main/index.html" target="_blank">Actividad 4 - Home</a></s></li>
-            </ol>
-        </nav>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="pweb.html" target="_blank">Programación Web</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Programación Orientado a Objetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Bases de Datos I</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Bases de Datos II</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Bases de Datos Distribuidas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Programación para Bases de Datos Distribuidas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Proyectos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="container mt-4">
+        <h2 class="text-center">Bienvenido!</h2>
+        <p class="text-center">Está es mi página que funcionara como mi portafolio de actividades :D</p>
     </main>
+
+    <!-- Footer -->
+    <footer class=" text-white text-center py-3 mt-4">
+        <p>&copy; 2025 - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Importamos bootstrap desde 'node modules' -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
