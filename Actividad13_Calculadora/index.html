@@ -1,0 +1,28 @@
+<!--  
+    Programacion WEB
+    30/03/2025
+    Actividad 13 - Calculadora
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+<body>
+    <h1>Actividad 13</h1>
+    <h2>Calculadora</h2>
+    <form action="calculadora.php" method="post">
+        <input type="text" name="Num1" placeholder="Valor 1" required>
+        <input type="text" name="Num2" placeholder="Valor 2 " required><br>
+
+        <input type="radio" name="operacion" value="+" checked> +
+        <input type="radio" name="operacion" value="-"> -
+        <input type="radio" name="operacion" value="x"> x
+        <input type="radio" name="operacion" value="/"> /
+        <br>
+        <button type="submit"> = </button>
+    </form>
+</body>
+</html>
